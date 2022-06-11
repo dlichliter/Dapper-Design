@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <title>Dapper Design</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+
+        <div class="container flow">
+            <h1 class="uppercase">Dapper design system</h1>
+
+            <section class="flow" id="colors" style="margin: 4rem 0">
+                <h2 class="numbered-title"><span>01</span> colors</h2>
+                <div class="flex">
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="bg-dark text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid white">#27292A</div>
+                        <p><span class="text-light">RGB</span> 39, 41, 42</p>
+                        <p><span class="text-light">HSL</span> 200°, 4%, 16%</p>
+                    </div>
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="bg-light text-dark ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid white">#FCFAC5</div>
+                        <p><span class="text-light">RGB</span> 252, 250, 197</p>
+                        <p><span class="text-light">HSL</span> 58°, 90%, 88%</p>
+                    </div>
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="bg-white text-dark ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid white;">#F5F5F5</div>
+                        <p><span class="text-light">RGB</span> 245, 245, 245</p>
+                        <p><span class="text-light">HSL</span> 0°, 0%, 96%</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flow" id="typography"  style="margin: 4rem 0">
+                <h2 class="numbered-title"><span>02 </span>Typography</h2>
+                <div class="flex">
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div>
+                            <p class="text-light">Heading 1 - Roboto Serif - 150px</p>
+                            <p class="fs-900 ff-serif uppercase">Sedge</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Heading 2 - Roboto Serif - 100px</p>
+                            <p class="fs-800 ff-serif uppercase">Yarrow</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Heading 3 - Roboto Serif - 56px</p>
+                            <p class="fs-700 ff-serif uppercase">Quaking Aspen</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Heading 4 - Roboto Serif - 32px</p>
+                            <p class="fs-600 ff-serif uppercase">Rocky Mountain Juniper</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Heading 5 - Roboto Condensed - 28px - 4.75 Character Space</p>
+                            <p class="text-light fs-500 ff-sans-cond uppercase letter-spacing-1">Blue & Engelmann Spruces</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div>
+                            <p class="text-light">Subheading 1 - Roboto Serif - 28px</p>
+                            <p class="fs-500 ff-serif uppercase">Populus Angustifolia</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Subheading 2 - Roboto Condensed - 14px - 2.35 Character Space</p>
+                            <p class="fs-200 uppercase ff-sans-cond letter-spacing-3">Pinus Contorta</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Nav Text - Roboto Condensed - 16px - 2.7 Character Space</p>
+                            <p class="fs-300 uppercase ff-sans-cond letter-spacing-2">Flora</p>
+                        </div>
+                        <div>
+                            <p class="text-light">Body Text</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt praesent semper feugiat nibh sed. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Eu consequat ac felis donec et odio. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Ac odio tempor orci dapibus. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Viverra nibh cras pulvinar mattis nunc. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Augue eget arcu dictum varius. Odio eu feugiat pretium nibh. Justo laoreet sit amet cursus sit amet dictum. Et egestas quis ipsum suspendisse ultrices. Risus at ultrices mi tempus imperdiet nulla. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flow" id="interactive-elements">
+                <h2 class="numbered-title"><span>03</span> Interactive elements</h2>
+
+                <!-- navigation -->
+                <div>
+                    <nav>
+                        <ul class="primary-navigation underline-indicators flex">
+                            <li class="active"><a class="uppercase text-white letter-spacing-2" href="#"><span>01</span>Active</a>
+                            <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span>Hovered</a>
+                            <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span>Idle</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="flex">
+                    <div style="margin-top: 5rem">
+                        <!-- explore button -->
+                        <a href="#" class="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</a>
+                    </div>
+
+                    <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
+                        <!-- Tabs -->
+                        <div class="tab-list underline-indicators flex">
+                            <button aria-selected="true" class="uppercase ff-sans-cond text-light bg-dark letter-spacing-2">Bighorn Sheep</button>
+                            <button aria-selected="false" class="uppercase ff-sans-cond text-light bg-dark letter-spacing-2">Elk</button>
+                            <button aria-selected="false" class="uppercase ff-sans-cond text-light bg-dark letter-spacing-2">Black Bear</button>
+                        </div>
+
+                        <!-- Dots -->
+                        <div class="dot-indicators flex">
+                            <button aria-selected="true"><span class="screen-reader-only">Tab title</span></button>
+                            <button aria-selected="false"><span class="screen-reader-only">Tab title</span></button>
+                            <button aria-selected="false"><span class="screen-reader-only">Tab title</span></button>
+                        </div>
+
+                        <!-- Numbers -->
+                        <div class="number-indicators flex fs-600" style="flex-direction: column; align-items: center">
+                            <button aria-selected="true" class="uppercase ff-serif text-light bg-dark">1</button>
+                            <button aria-selected="false" class="uppercase ff-serif text-light bg-dark">2</button>
+                            <button aria-selected="false" class="uppercase ff-serif text-light bg-dark">3</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </div>
+    </body>
+</html>
